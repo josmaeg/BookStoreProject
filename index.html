@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book store</title>
+    <script src="https://kit.fontawesome.com/37a0feaa22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+
+    <nav class="nav1">
+        <img src="./image/logo.png" alt="logo">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Featured">Featured</a></li>
+            <li><a href="#Arrivals">Arrivals</a></li>
+            <li><a href="#Reviews">Reviews</a></li>
+            <li><a href="#Blog">Blog</a></li>
+        </ul>
+        <div class="socialicon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="wishlist.html"><i class="fa-solid fa-heart"></i></a>
+            <i class="fa-solid fa-bars bar" id="menu-bar"></i>
+        </div>
+    </nav>
+    <nav class="nav2">
+        <ul>
+            <li class="list"><a href="#Home">Home</a></li>
+            <li class="list"><a href="#Service">Service</a></li>
+            <li class="list"><a href="#About">About</a></li>
+            <li class="list"><a href="#Featured">Featured</a></li>
+            <li class="list"><a href="#Arrivals">Arrivals</a></li>
+            <li class="list"><a href="#Reviews">Reviews</a></li>
+            <li class="list"><a href="#Blog">Blog</a></li>
+        </ul>
+    </nav>
+    <div class="main" id="Home">
+        <div class="main-tag">
+            <h1>WELCOME TO<br><span>BOOK STORE</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum excepturi minima minus ut maxime ab,
+                voluptates laudantium porro vero maiores voluptas unde quaerat repudiandae aut officia beatae repellat
+                itaque.
+                Quibusdam.</p>
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit aperiam rerum exercitationem
+                illum nisi quam suscipit ab eaque incidunt veritatis tempora, optio nesciunt, perferendis quos autem?
+                Quia debitis ipsa temporibus.</p>
+            <a href="#" class="main-btn">Learn more</a>
+        </div>
+        <div class="main-img">
+            <img src="./image/table.png" alt="main-img">
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <section class="service_box" id="Service">
+        <div class="services_card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="services_card">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24 x 7 Services</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="services_card">
+            <i class="fa-solid fa-tag"></i>
+            <h3>Best Deals</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="services_card">
+            <i class="fa-solid fa-lock"></i>
+            <h3>Secure Payment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about" id="About">
+        <div class="about_img">
+            <img src="/image/about.png" rel="about_img">
+        </div>
+        <div class="about_tag">
+            <h1>About Us</h1>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dolorem quas, nam velit quo ut
+                error dicta debitis laudantium fugiat suscipit repudiandae! Accusantium ratione impedit soluta adipisci
+                nemo, commodi minima.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ratione voluptas iste, officiis eum
+                nostrum suscipit temporibus est vitae praesentium pariatur debitis nisi sequi consequatur molestias
+                tempora placeat autem laboriosam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+                cupiditate in? Dolores ullam, deleniti vitae accusantium eaque beatae enim magnam nostrum laboriosam
+                fuga dolore, culpa corrupti iusto dignissimos, eius repellat.
+            </p>
+            <a href="#" class="about-btn">Learn more</a>
+        </div>
+    </section>
+
+    <!-- featured books -->
+
+    <section class="featured_books">
+        <h1>Featured Books</h1>
+        <div class="swiper mySwiper">
+            <div class="featured_bbox swiper-wrapper" id="Featured">
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_1.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_2.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_bimage">
+                        <img src="./image/book_3.jpg" alt="book1">
+                    </div>
+
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_4.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_5.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_6.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_5.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_1.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_9.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="featured_bcard">
+                    <div class="featured_bimage">
+                        <img src="./image/book_2.jpg" alt="book1">
+                    </div>
+                    <i class="fa-solid fa-heart bheart"></i>
+                    <div class="featured_btag">
+                        <h3>Featured Books</h3>
+                    </div>
+                    <div class="featured_bauthor">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="featured_bcategories">
+                        <p>Thriller, Horror, Romance</p>
+                    </div>
+                    <div class="featured_bprice">
+                        <p>$25.50<sub><del>$28.60</del></sub></p>
+                    </div>
+                    <div class="featured_bbutton">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footersec -->
+
+    <footer>
+        <div class="story">
+            <h3>Our Story</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem alias ea perspiciatis quisquam iure aut
+                debitis consequatur obcaecati expedita at ex doloribus officia ad ipsa aperiam dolores, quasi ipsam!
+                Aliquam.</p>
+        </div>
+        <div class="info">
+            <h3>Contact Info</h3>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i>
+                    <p>+91 9876543210</p>
+                </li>
+                <li><i class="fa-solid fa-phone"></i>
+                    <p>+91 9876543210</p>
+                </li>
+                <li><i class="fa-solid fa-envelope"></i>
+                    <p>bookstore@eg.dk</p>
+                </li>
+            </ul>
+        </div>
+        <div class="follow">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#"></a><i class="fa-brands fa-instagram"></i>
+                    <p>@bookstore_in</p></a>
+                </li>
+                <li><a href="#"></a><i class="fa-brands fa-twitter"></i>
+                    <p>@bookstore_in</p></a>
+                </li>
+                <li><a href="#"><i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                        <p>www.linkedin.com</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
